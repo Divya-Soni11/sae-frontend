@@ -3,6 +3,7 @@ import { Cpu } from 'lucide-react';
 import Garuda from '../Asset/grudra.png';
 import Alphaone from '../Asset/alpha_one.png';
 import Vayuver from '../Asset/vayuveer.png';
+import Abhedya from '../Asset/abhedya.png';
 
 const teams = [
   {
@@ -22,6 +23,12 @@ const teams = [
     name: 'Alpha One',
     description:
       'Software team of SAE UIET. Aims to revolutionize problems with feasible technology.',
+  },
+  {
+    logo: Abhedya,
+    name: 'Team Abhedya',
+    description:
+        'Gears spinning, circuits buzzing — the robotics team of SAE UIET turns curiosity into creation.',
   },
 ];
 
