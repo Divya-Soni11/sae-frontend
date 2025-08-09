@@ -145,7 +145,7 @@ export default function Newsletter() {
     window.open(`/techblog/?=${parsedTitle}`, "_blank");
   };
 
-  const groupedNews = filteredNews.reduce((groups, news) => {
+  const groupedNews = filteredNews.reverse().reduce((groups, news) => {
     const datastr = news.date;
     const data = new Date(datastr)
     const date = data.toLocaleDateString("en-US", {
