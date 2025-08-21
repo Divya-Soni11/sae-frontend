@@ -1,40 +1,30 @@
 import React, { useState } from "react";
 import { Cpu, Zap, Box, Hexagon, X } from "lucide-react";
-import mobility1 from "../Gallery/mobility1.jpg";
-import mobility2 from "../Gallery/mobility2.jpg";
-import mobility3 from "../Gallery/mobility3.jpg";
-import mobility4 from "../Gallery/mobility4.jpg";
-import techinvent1 from "../Gallery/techinvent1.JPG";
-import techinvent2 from "../Gallery/techinvent2.jpg";
-import img6 from "../Gallery/cu1.jpg";
-import img7 from "../Gallery/cu2.jpg";
-import technoxian1 from "../Gallery/technoxian1.jpg";
-import technoxian2 from "../Gallery/technoxian2.jpg";
-import technoxian3 from "../Gallery/technoxian3.jpg";
-import technoxian4 from "../Gallery/technoxian4.jpg";
-import technoxian5 from "../Gallery/technoxian5.jpg";
-import technoxian6 from "../Gallery/technoxian6.jpg";
-import img8 from "../Gallery/img_2579.heic";
 import Footer from "./Footer";
 
 const months = [
   {
+    name: "Xpecto'25 IIT Mandi",
+    images: [`${process.env.REACT_APP_BUCKET}xpecto1.jpg`, `${process.env.REACT_APP_BUCKET}xpecto2.jpg`, `${process.env.REACT_APP_BUCKET}xpecto3.jpg`, `${process.env.REACT_APP_BUCKET}xpecto4.jpg`, `${process.env.REACT_APP_BUCKET}xpecto5.jpg`]
+
+  },
+  {
     name: "Bharat Mobility Expo 2025",
-    images: [mobility4, mobility1, mobility2, mobility3],
+    images: [`${process.env.REACT_APP_BUCKET}mobility1.jpg`, `${process.env.REACT_APP_BUCKET}mobility4.jpg`, `${process.env.REACT_APP_BUCKET}mobility2.jpg`, `${process.env.REACT_APP_BUCKET}mobility3.jpg`]
   },
   {
     name: "CU Tech-Invent",
-    images: [techinvent1, techinvent2],
+    images: [`${process.env.REACT_APP_BUCKET}techinvent1.JPG`, `${process.env.REACT_APP_BUCKET}techinvent2.jpg`],
   },
   {
     name: "Technoxian WRC 2024",
     images: [
-      technoxian1,
-      technoxian2,
-      technoxian3,
-      technoxian4,
-      technoxian5,
-      technoxian6,
+      `${process.env.REACT_APP_BUCKET}technoxian1.jpg`,
+      `${process.env.REACT_APP_BUCKET}technoxian2.jpg`,
+      `${process.env.REACT_APP_BUCKET}technoxian3.jpg`,
+      `${process.env.REACT_APP_BUCKET}technoxian4.jpg`,
+      `${process.env.REACT_APP_BUCKET}technoxian5.jpg`,
+      `${process.env.REACT_APP_BUCKET}technoxian6.jpg`,
     ],
   },
 ];

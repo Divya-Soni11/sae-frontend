@@ -36,12 +36,12 @@ export default function CyberpunkNavbar() {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all"></span>
             </Link>
           </li>
-          <li className="group relative">
+          {/* <li className="group relative">
             <Link to="/events" className="flex items-center gap-2 group-hover:text-blue-500 transition">
               <Calendar size={20} /> Events
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all"></span>
             </Link>
-          </li>
+          </li> */}
           <li className="group relative">
             <Link to="/sponsor" className="flex items-center gap-2 group-hover:text-blue-500 transition">
               <Calendar size={20} /> Sponsor
@@ -107,11 +107,11 @@ export default function CyberpunkNavbar() {
               <Image size={20} /> Gallery
             </Link>
           </li>
-          <li onClick={toggleMobileMenu}>
+          {/* <li onClick={toggleMobileMenu}>
             <Link to="/events" className="flex items-center gap-2">
               <Calendar size={20} /> Events
             </Link>
-          </li>
+          </li> */}
           <li onClick={toggleMobileMenu} className="group relative">
             <Link to="/sponsor" className="flex items-center gap-2 group-hover:text-blue-500 transition">
               <Calendar size={20} /> Sponsor

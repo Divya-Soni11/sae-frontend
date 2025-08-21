@@ -2,37 +2,37 @@ import React, { useState } from "react";
 import CyberpunkNavbar from "./Navbar";
 import { Cpu, Zap, Box } from "lucide-react";
 import Footer from "./Footer";
-import img9 from "../Gallery/image1.jpg";
-import img10 from "../Gallery/image2.jpg";
-import img11 from "../Gallery/image3.jpg";
-import img12 from "../Gallery/image4.jpg";
-import img13 from "../Gallery/image5.jpg";
-import img14 from "../Gallery/image61.jpg";
-import img15 from "../Gallery/image7.jpeg";
-import img16 from "../Gallery/image8.jpg";
-import img17 from "../Gallery/image9.jpg";
-import img18 from "../Gallery/image10.jpg";
-import img19 from "../Gallery/image11.jpeg";
-import img20 from "../Gallery/image12.jpg";
-import img21 from "../Gallery/image13.png";
-import img22 from "../Gallery/image14.jpg";
-import img23 from "../Gallery/image15.png";
-import img24 from "../Gallery/image16.jpeg";
-import img25 from "../Gallery/image17.jpeg";
-import img26 from "../Gallery/image18.jpg";
-import img27 from "../Gallery/image19.jpg";
-import img28 from "../Gallery/image20.jpg";
-import img29 from "../Gallery/image21.jpg";
-import img0 from "../Gallery/image22.jpg";
-import img30 from "../Gallery/ayush.jpeg";
-import img31 from "../Gallery/ganesh.jpg";
-import img32 from "../Gallery/sanchi.jpg";
-import img33 from "../Gallery/padam.jpeg";
-import img34 from "../Gallery/shubh.webp";
-import img35 from "../Gallery/aaditi.jpg";
-import img36 from "../Gallery/Addhar.jpg";
-import img37 from "../Gallery/atri.jpg";
-import img38 from "../Gallery/divanyanshu.jpg";
+const img9 =`${process.env.REACT_APP_BUCKET}image1.jpg`;
+const img10 =`${process.env.REACT_APP_BUCKET}image2.jpg`;
+const img11 =`${process.env.REACT_APP_BUCKET}image3.jpg`;
+const img12 =`${process.env.REACT_APP_BUCKET}image4.jpg`;
+const img13 =`${process.env.REACT_APP_BUCKET}image5.jpg`;
+const img14 =`${process.env.REACT_APP_BUCKET}image61.jpg`;
+const img15 =`${process.env.REACT_APP_BUCKET}image7.jpeg`;
+const img16 =`${process.env.REACT_APP_BUCKET}image8.jpg`;
+const img17 =`${process.env.REACT_APP_BUCKET}image9.jpg`;
+const img18 =`${process.env.REACT_APP_BUCKET}image10.jpg`;
+const img19 =`${process.env.REACT_APP_BUCKET}image11.jpeg`;
+const img20 =`${process.env.REACT_APP_BUCKET}image12.jpg`;
+const img21 =`${process.env.REACT_APP_BUCKET}image13.png`;
+const img22 =`${process.env.REACT_APP_BUCKET}image14.jpg`;
+const img23 =`${process.env.REACT_APP_BUCKET}image15.png`;
+const img24 =`${process.env.REACT_APP_BUCKET}image16.jpeg`;
+const img25 =`${process.env.REACT_APP_BUCKET}image17.jpeg`;
+const img26 =`${process.env.REACT_APP_BUCKET}image18.jpg`;
+const img27 =`${process.env.REACT_APP_BUCKET}image19.jpg`;
+const img28 =`${process.env.REACT_APP_BUCKET}image20.jpg`;
+const img29 =`${process.env.REACT_APP_BUCKET}image21.jpg`;
+const img0 =`${process.env.REACT_APP_BUCKET}image22.jpg`;
+const img30 =`${process.env.REACT_APP_BUCKET}ayush.jpeg`;
+const img31 =`${process.env.REACT_APP_BUCKET}ganesh.jpg`;
+const img32 =`${process.env.REACT_APP_BUCKET}sanchi.jpg`;
+const img33 =`${process.env.REACT_APP_BUCKET}padam.jpeg`;
+const img34 =`${process.env.REACT_APP_BUCKET}shubh.webp`;
+const img35 =`${process.env.REACT_APP_BUCKET}aaditi.jpg`;
+const img36 =`${process.env.REACT_APP_BUCKET}Addhar.jpg`;
+const img37 =`${process.env.REACT_APP_BUCKET}atri.jpg`;
+const img38 =`${process.env.REACT_APP_BUCKET}divanyanshu.jpg`;
 
 const teamMembers = [
   {
@@ -208,78 +208,6 @@ const teamMembers = [
     instagram:
       "https://www.instagram.com/yattharrthh/profilecard/?igsh=MXZvbzZhYjUyMXBqZg==",
   },
-  {
-    category: "Maintainer",
-    name: "Ayush Anand",
-    title: " Member",
-    image: img30,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Shubham Garg",
-    title: " Member",
-    image: img34,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Sanchi Agarwal",
-    title: " Member",
-    image: img32,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Aaditi",
-    title: " Member",
-    image: img35,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Divyanshu",
-    title: " Member",
-    image: img38,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Ganesh Pandey",
-    title: " Member",
-    image: img31,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Padam",
-    title: " Member",
-    image: img33,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Aadhar Pradhan",
-    title: " Member",
-    image: img36,
-    linkedin: "#",
-    instagram: "#",
-  },
-  {
-    category: "Maintainer",
-    name: "Divyansh Attri",
-    title: " Member",
-    image: img37,
-    linkedin: "#",
-    instagram: "#",
-  },
 ];
 
 const GlowingText = ({ children }) => (
@@ -330,16 +258,6 @@ const MeetTheTeam = () => {
             }`}
           >
             Core Committee
-          </button>
-          <button
-            onClick={() => setSelectedCategory("Maintainer")}
-            className={`px-1 py-2 sm:px-4 rounded-full ${
-              selectedCategory === "Maintainer"
-                ? "bg-blue-500 text-white"
-                : "bg-gray-800 text-gray-300"
-            }`}
-          >
-            Maintainers
           </button>
         </div>
       </div>

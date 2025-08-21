@@ -26,7 +26,7 @@ function App() {
         <Route path="/gallery" element={<CyberpunkGallery />} />
         <Route path="/Meet-team" element={<MeetTheTeam/>} />
         <Route path="/sponsor" element={<Sponosor/>}/>
-        <Route path = "/events" element={<Event/>}/>
+        {/* <Route path = "/events" element={<Event/>}/> */}
         <Route path="/sae-blogs" element={<Newsletter />} />
         {/* <Route path = "/sae-project-blog/:blogId" element={<SAEblogs/>}/> */}
         <Route path="/event-details/:eventId" element={<EvenDetails/>} />
