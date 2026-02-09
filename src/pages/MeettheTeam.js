@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CyberpunkNavbar from "./Navbar";
 import { Cpu, Zap, Box } from "lucide-react";
 import Footer from "./Footer";
-const img9 =`${process.env.REACT_APP_BUCKET}2.png`;
+const img9 =`${process.env.REACT_APP_BUCKET}vinay chairperson.png`;
 const img10 =`${process.env.REACT_APP_BUCKET}image2.jpg`;
 const img11 =`${process.env.REACT_APP_BUCKET}image3.jpg`;
 const img12 =`${process.env.REACT_APP_BUCKET}image4.jpg`;
