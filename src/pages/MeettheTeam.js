@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CyberpunkNavbar from "./Navbar";
 import { Cpu, Zap, Box } from "lucide-react";
 import Footer from "./Footer";
-const img9 =`${process.env.REACT_APP_BUCKET}image1.jpg`;
+const img9 =`${process.env.REACT_APP_BUCKET}2.png`;
 const img10 =`${process.env.REACT_APP_BUCKET}image2.jpg`;
 const img11 =`${process.env.REACT_APP_BUCKET}image3.jpg`;
 const img12 =`${process.env.REACT_APP_BUCKET}image4.jpg`;
@@ -37,11 +37,11 @@ const img38 =`${process.env.REACT_APP_BUCKET}divanyanshu.jpg`;
 const teamMembers = [
   {
     category: "Executive Board",
-    name: "Akshit Kain",
+    name: "Vinay Kumar",
     title: "Chairperson",
     image: img9,
-    linkedin: "https://www.linkedin.com/in/akshitkain/",
-    instagram: "https://www.instagram.com/akshit_kain/",
+    linkedin: "https://www.linkedin.com/in/vinay-kumar-100a94311/",
+    instagram: "https://www.instagram.com/vinay.mav?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     category: "Executive Board",
