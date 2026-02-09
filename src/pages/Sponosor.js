@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Box, Zap, Hexagon, Share2, X } from 'lucide-react';
 import Footer from './Footer';
 import imgANSys from "../Gallery/ANSys.png";
+import mitter from "../Gallery/mitter.png";
 import imgDic from "../Gallery/dic.jpg";
 import imgEmm from "../Gallery/emm.png";
 import imgInfileague from "../Gallery/infileague.jpg";
@@ -16,6 +17,7 @@ import imgUiet from "../Gallery/Uiet.jpeg";
 import imgUx from "../Gallery/ux.jpg";
 
 const sponsors = [
+    { id: 0, name: 'Mitter Fastener', logo: mitter },
     { id: 1, name: 'ANSys Solutions', logo: imgANSys },
     { id: 2, name: 'DIC Innovations', logo: imgDic },
     { id: 3, name: 'EMM Technologies', logo: imgEmm },
